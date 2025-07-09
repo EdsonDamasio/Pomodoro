@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inria+Serif&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+<!--navbar-->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="https://github.com/EdsonDamasio" target="_blank">avanços e repositórios no GitHub</a>
+    <a href="contact.html">Contatos</a>
+    <a href="about.html">Sobre o projeto</a>
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Abrir menu">
+    <i class="fa fa-bars"></i>
+</a>
+</div>
+    <!--Video no fundo do site-->
+    <video autoplay muted loop class="video-bg" >
+        <source src="movie/vecteezy_drops-of-light-animated-background_2021354.mp4" type="video/mp4"/>
+    </video>
+
+    <!--parte principal-->
+<div class="app-container">
+  <h1>pomodoro</h1>
+  <div class="app-mensage">clique em "ativar" para iniciar a contagem</div>
+  <div class="app-circle">
+    <div class="circle-shape">
+        <div class="semi-circle right-side circle-mask"></div>
+        <div class="semi-circle right-side circle"></div>
+        <div class="semi-circle left-side left-mask"></div>
+        <div class="semi-circle left-side circle"></div>
+    </div>
+        <div class="app-counter-box">
+        <p> <span class="minutes">25</span>:<span class="seconds">00</span></p>
+        </div>
+        <button class="btn-start">começar</button>
+        <button class="btn-reset">resetar</button>  
+  </div>
+  </div>  
+</body>
+<script src="./java.js"></script>
+</html>
