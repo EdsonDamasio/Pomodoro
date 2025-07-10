@@ -1,5 +1,5 @@
 // Som
-const bells = new Audio('./sound/Hotel-bell-ringing-Sounds-effect.wav');
+const bells = new Audio('/Hotel-bell-ringing-Sounds-effect.wav');
 
 // Elementos
 const startBtn = document.querySelector('.btn-start');
